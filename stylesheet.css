@@ -142,19 +142,20 @@
 }
 
 .task-contents1-1{
-    margin-left: 0;
 }
 
 .task-contents1 img{
-    width:35vw;
+    width:28vw;
+    margin-left: 5vw;
 }
 
 .task-contents1-2{
-    margin-left: 1vw;
+    margin-right:0vw;
 }
 
 .task-contents1-2 img{
-    width:35vw;
+    width:28vw;
+    margin-left: 5vw;
 }
 
 .task-contents2{
@@ -163,19 +164,21 @@
 }
 
 .task-contents2-1{
-    margin-left: 0;
+    
 }
 
 .task-contents2 img{
-    width:35vw;
+    width:28vw;
+    margin-left: 5vw;
 }
 
 .task-contents2-2{
-    margin-left: 1vw;
+    margin-right:0vw;
 }
 
 .task-contents2-2 img{
-    width:35vw;
+    width:28vw;
+    margin-left: 5vw;
 }
 
 .task h3{
@@ -209,7 +212,7 @@ display: flex;
 }
 
 .work1 h1{
-    font-size: 3vw;
+    font-size: 2.7vw;
     margin-top: 0vw;
 }
 
