@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
-    <title>Nakai Electroninc</title>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<title>Nakai Electroninc</title>
 </head>
 
 
@@ -26,18 +27,18 @@
     </div>
     <div class="header">
         <h1>ナカイデンキ<br>Nakai Electroninc</h1>
-        <h2>あなたの暮らしを豊かに<br>ナカイデンキ</h2>
+        <h2 data-aos="fade-up" data-aos-delay="1000">あなたの暮らしを豊かに<br>ナカイデンキ</h2>
         <div class="home">
             <ul>
                 <li>お仕事のご依頼はコチラ</li>
             </ul>
         </div>
-        <img src="1.jpeg"> 
+        <img src="1.jpeg" data-aos="fade-up" data-aos-delay="2000"> 
     </div>
 </header>
 
 <body>
-    <div class="task">
+    <div class="task" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="250" data-aos-duration="1500"> 
         <h1>工事内容</h1>
         <h2>Description</h2>
 
@@ -70,7 +71,7 @@
         </div>
     </div>
 
-    <div class="recent">
+    <div class="recent" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="250" data-aos-duration="1500">
         <h1>最近のご依頼</h1>
         <h2>Recent Work</h2>
 
@@ -110,4 +111,14 @@ window.onload = ()=>{
     const loader = document.getElementById('loader');
     loader.classList.add('loaded');}
 </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        easing:'ease-out-back',
+        duration:1000
+    });
+    </script>
+
 </html>
